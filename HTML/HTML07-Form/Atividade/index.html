@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>textarea{ resize: none;}</style>
+</head>
+<body>
+    <form>
+        <label>Nome da Empresa:</label>
+        <input type="text" required>
+        <br><br>
+
+        <label">Data de Entrada na Empresa:</label>
+        <input type="date" required>
+        <br><br>
+      
+        <label>Quantidade de Funcionários:</label>
+        <input type="number"required>
+        <br><br>
+      
+        <label>Salário:</label>
+        <input type="number" required>
+        <br><br>
+      
+        <label>Você ainda está na empresa?</label> <br>
+        <input type="radio"name="SIM-NAO" value="yes" required>
+        <label >Sim</label> <br>
+        <input type="radio"name="SIM-NAO" value="no">
+        <label >Não</label>
+        <br><br>
+      
+        <label>Tipo de Contrato:</label><br>
+        <input type="radio"required>
+        <label>PJ</label><br>
+        <input type="radio" required>
+        <label>CLT</label>
+        <br><br>
+
+        <label>Benefícios:</label>
+        <select name="beneficiosio" >
+            <option></option>
+            <option>Vale refeição</option>
+            <option>liçenca maternidade/paternidade</option>
+            <option>Vale Alimentação</option>
+            <option>Vale transporte</option>
+            <option>Academias</option>
+            <option>PLR</option>
+            <option>Plano de saúde</option>
+            <option>Plano odontológico</option>
+            <option>Cesta básica</option>
+            <option>Day off</option>
+            <option>Bolsa de estudos</option>
+            <option>Pet friendly</option>
+            <option>Empréstimo consignado</option>
+        </select>
+        <br><br>
+        <label><strong>Diga As Qualidade da Empresa</strong></label>
+        <br>
+        <textarea rows="6" cols="50" ></textarea>
+        <br><br>
+        <label><strong>Diga Os Defeito da Empresa</strong></label>
+        <br>
+        <textarea rows="6" cols="50"></textarea>
+        <br><br>
+      
+        <button type="submit">Enviar</button>
+      </form>
+</body>
+</html>

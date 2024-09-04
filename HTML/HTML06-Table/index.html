@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        th{
+            background-color: black;
+            color: white;
+            
+        }
+        th,td,tr{
+            border: solid 1px black;
+            border-radius: 17%;
+        }
+    </style>
+    <script>
+    function calcularMedia() {
+        let notas = document.getElementsByClassName("nota");
+        let soma = 0;
+        let quantidade = notas.length;
+        
+        for (let i = 0; i < quantidade; i++ ) {
+            soma += parsefloat(notas[i].textContent);
+
+        }
+        let media = quantidade > 0 ? (soma / quantidade).toFixed(2) : 0;
+        document.getElementById("media-total").textContent = 'Média Total:' + media;
+        
+        
+    }
+    window.onload = calcularMedia;
+    </script>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+            <th>Nome</th>
+            <th>Anos</th>
+            </tr> 
+         </thead>
+         <tbody>
+        <tr>
+            <td>caio</td>
+            <td>3 Anos</td>
+        </tr>
+        <tr>
+            <td>Manasses</td>
+            <td>2.3 Anos</td>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>1.6 Anos</td>
+        </tr>
+        <tr>
+            <td>Lukas</td>
+            <td>2 Anos</td>
+        </tr>
+        <tr>
+            <td>Giovani</td>
+            <td>2.5 Anos</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="2">5 alunos</th>
+        </tr>
+    </tfoot>
+
+
+    </table>
+
+    <table>
+        <tr>
+            <th>Verduras</th>
+            <th>Produtos de limpeza</th>
+            <th>Frutas</th>
+        </tr>
+        <tr><td>Coentro</td>
+            <td>Detergentes</td>
+            <td>Abacaxi</td>
+    </tr>
+        <tr>
+            <td>Cebola</td>
+            <td>Desinfetantes</td>
+            <td>Uva</td>
+        </tr>
+        <tr>
+            <td>Batata</td>
+            <td>Limpa-vidros</td>
+            <td>Tomate</td>
+        </tr>
+        <tr>
+            <td>Alho</td>
+            <td>Desengordurantes</td>
+            <td>Laranja</td>
+        </tr>
+        <tr>
+            <td>Alface</td>
+            <td>Amaciantes de roupas</td>
+            <td>Banana</td>
+        </tr>
+        <tr>
+            <td>Abóbora</td>
+            <td>Removedores de manchas</td>
+            <td>Maçã</td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <td>Aluno</td>
+                <td>Notas</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>irineu</td>
+                <td class="nota">4</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td class="nota">4</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td class="nota">2</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td class="nota">6</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td class="nota">9</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td class="nota">2</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td class="nota">7</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td class="nota">5</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="media-total"> Média Total: 0</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    background-color: blue;
+}
+p{
+    font-weight: 400;
+    background-color: black;
+    color: red;
+    font-style: italic;
+    line-height: 200%;
+    font-size: 100%;
+}

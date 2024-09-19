@@ -1,0 +1,13 @@
+#p1{
+    border: groove 2px aqua ;
+}
+figure{
+    border: 2px solid;
+    border-radius: 10%;
+    display: block;
+}
+body{
+    background-image: url(atumalaca-risada.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+}

@@ -1,0 +1,23 @@
+body{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    border: 1px solid brown;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+}
+
+#img1{
+    padding: 20px;
+    margin-left: 22%;
+}
+#img2{
+    padding: 0px 20px 0px 20px;
+}
+#img3{
+    margin-right: 10px;
+}   
+

@@ -1,0 +1,11 @@
+body{
+    margin: auto;
+    width: 2em;
+    border: 1px solid black;
+}
+
+body, figure {
+    margin: auto;
+    width: 2em;
+    border: 1px solid black;
+}

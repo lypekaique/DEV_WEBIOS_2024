@@ -1,0 +1,13 @@
+#container{
+    display: flex ;
+    flex-direction: column;
+    padding-bottom: auto;
+    
+}
+
+
+.item{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}

@@ -32,13 +32,13 @@
 }
 
 .linha-resumo {
-  background-color: #c1c2bc; /* Cor de fundo para a linha do resumo */
+  background-color: #c1c2bc; 
   padding: 10px;
   margin-bottom: 20px;
 }
 
 .botao-sabaimais {
-  background-color: #8c867c; /* Cor do botão */
+  background-color: #8c867c; 
   color: white;
   padding: 5px 10px;
   text-decoration: none;

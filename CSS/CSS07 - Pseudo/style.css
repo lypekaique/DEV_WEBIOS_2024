@@ -22,10 +22,6 @@ input:focus{
 p:nth-of-type(2){
     background-color: black     ;
 }
-<<<<<<< HEAD
 p::after{
     background-color: aliceblue;
 }
-=======
-
->>>>>>> 088889f02a2f20208fdf9034330f9b941e94bf81

@@ -6,4 +6,4 @@ var nota3 = 5
 var media = (nota + nota1 + nota2 + nota3) /4
 
 
-console.log(media)
+console.log(media)                                

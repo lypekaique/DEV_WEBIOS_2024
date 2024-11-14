@@ -1,3 +1,12 @@
-#recebeValor{
+body{
     
+}
+
+#o{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: center;
+    justify-content: center;
+    padding-top: 450px;
+    gap: 10px;
 }
